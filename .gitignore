@@ -162,3 +162,20 @@ sketch
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,yarn,react,node
+# ZeroUI standalone lines
+env.sh
+
+app/backend/.yarn/
+app/backend/app.js
+app/backend/bin/
+app/backend/data/
+app/backend/jsconfig.json
+app/backend/routes/
+app/backend/services/
+app/backend/utils/
+
+app/frontend/.yarn/
+app/frontend/build/
+app/frontend/jsconfig.json
+app/frontend/public/
+app/frontend/src/

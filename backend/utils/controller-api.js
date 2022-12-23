@@ -1,7 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 
-const baseURL = process.env.ZU_CONTROLLER_ENDPOINT || "http://localhost:9993/";
+const baseURL = process.env.ZU_CONTROLLER_ENDPOINT || "http://localhost:40893/";
 
 var token;
 if (process.env.ZU_CONTROLLER_TOKEN) {
