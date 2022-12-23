@@ -45,14 +45,14 @@ if (
 ) {
   app.use(compression());
   app.use(
-    ["/app", "/app/*"],
+    ["/var/lib/zerotier-one/zero-ui/app", "/var/lib/zerotier-one/zero-ui/app/*"],
     express.static(path.join(__dirname, "..", "frontend", "build"))
   );
   app.get(["/app/network/*"], function (req, res) {
     res.sendFile(path.join(__dirname, "..", "frontend", "build", "index.html"));
   });
   app.get("/", function (req, res) {
-    res.redirect("/app");
+    res.redirect("/var/lib/zerotier-one/zero-ui/app");
   });
 }
 

@@ -12,7 +12,7 @@ import Network from "./routes/Network/Network";
 function App() {
   return (
     <Theme>
-      <BrowserRouter basename="/app">
+      <BrowserRouter basename="/var/lib/zerotier-one/zero-ui/app">
         <Bar />
         <Switch>
           <Route exact path="/" component={Home} />
