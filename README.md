@@ -18,6 +18,11 @@ The point of this fork is to run zero-ui native, attached to and controlling you
 
 ## Getting Started
 
+### Setup
+1. Edit `backend/utils/controller-api.js` if you intend to use a non-standard primary port.
+2. `export ZU_DEFAULT_USERNAME="CHANGE_ME"`
+3. `export ZU_DEFAULT_PASSWORD="CHANGE_ME"`
+
 ### Build
 1. `npm install -g pm2 yarn`
 2. Clone the repository
