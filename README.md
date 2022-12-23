@@ -18,7 +18,17 @@ The point of this fork is to run zero-ui native, attached to and controlling you
 
 ## Getting Started
 
+### Build
 1. `npm install -g pm2 yarn`
 2. Clone the repository
-3. `cd zero-ui`
+3. `cd zero-ui/app/frontend`
 4. `yarn install`
+5. `cd ../backend`
+6. `yarn install`
+7. `cd ../..`
+8. `cp -R frontend/* app/frontend/`
+8. `cp -R backend/* app/backend/`
+
+### Run
+1. `cd app/backend`
+2. `node bin/www`
