@@ -25,9 +25,10 @@ The point of this fork is to run zero-ui native, attached to and controlling you
 4. `yarn install`
 5. `cd ../backend`
 6. `yarn install`
-7. `cd ../..`
-8. `cp -R frontend/* app/frontend/`
-8. `cp -R backend/* app/backend/`
+7. `cp -R ../../frontend/* ./`
+8. `yarn build`
+9. `cd ../..`
+10. `cp -R backend/* app/backend/`
 
 ### Run
 1. `cd app/backend`
